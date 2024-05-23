@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { PoAvatarModule } from '@po-ui/ng-components';
 import {
   PoMenuItem,
   PoMenuModule,
@@ -10,6 +11,7 @@ import {
 } from '@po-ui/ng-components';
 import { ProtheusLibCoreModule } from '@totvs/protheus-lib-core';
 import { ProAppConfigService } from '@totvs/protheus-lib-core';
+import { ListPageComponent } from './shared/component/list-page/list-page.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +24,8 @@ import { ProAppConfigService } from '@totvs/protheus-lib-core';
     PoPageModule,
     HttpClientModule,
     ProtheusLibCoreModule,
+    ListPageComponent,
+    PoAvatarModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
