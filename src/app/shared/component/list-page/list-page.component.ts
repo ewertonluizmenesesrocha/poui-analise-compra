@@ -16,9 +16,9 @@ export class ListPageComponent {
   ];
 
   readonly items = [
-    { id: 1, name: 'Item 1', description: 'Descrição do Item 1' },
-    { id: 2, name: 'Item 2', description: 'Descrição do Item 2' },
-    { id: 3, name: 'Item 3', description: 'Descrição do Item 3' }
+    { id: 1, name: 'Item 1', descricao: 'Descrição do Item 1', preco: "12,00", data: "27/05/2024"},
+    { id: 2, name: 'Item 2', descricao: 'Descrição do Item 2', preco: "10,30", data: "14/05/2024"},
+    { id: 3, name: 'Item 3', descricao: 'Descrição do Item 3', preco: "45,00", data: "24/01/2024"}
   ];
 
   cadObj() {
